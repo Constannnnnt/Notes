@@ -27,3 +27,6 @@ Temporary Items
 
 # Vscode
 .vscode
+
+# python compile Files
+.pyc

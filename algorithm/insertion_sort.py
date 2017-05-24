@@ -9,6 +9,7 @@ def insertion_sort(arr, direction=None):
 
     if direction != 'descending':
         # by default, sort is ascending
+        direction = 'ascending'
         for i in range(len(arr)):
             key = arr[i]
             pos = i
@@ -25,9 +26,4 @@ def insertion_sort(arr, direction=None):
                 pos = pos - 1
             arr[pos] = key
 
-    return arr
-
-# # test session
-# if __name__ == '__main__':
-#     print(insertion_sort([1, 5, 10, 2, 12, 20]))
-#     print(insertion_sort([1, 5, 10, 2, 12, 20], 'descending'))
+    return arr, direction
