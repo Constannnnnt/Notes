@@ -5,7 +5,10 @@
 '''
 
 def insertion_sort(arr, direction=None):
-    '''insertion sort,complexity in O(n^2)'''
+    '''
+        insertion sort,complexity in O(n^2)
+        algorithm: assume an array is sorted a new element is inserted somewhere appropriately
+    '''
 
     if direction != 'descending':
         # by default, sort is ascending
