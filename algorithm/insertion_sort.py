@@ -6,8 +6,9 @@
 
 def insertion_sort(arr, direction=None):
     '''
-        insertion sort,complexity in O(n^2)
         algorithm: assume an array is sorted a new element is inserted somewhere appropriately
+
+        complexity in O(n^2)
     '''
 
     if direction != 'descending':
@@ -29,4 +30,4 @@ def insertion_sort(arr, direction=None):
                 pos = pos - 1
             arr[pos] = key
 
-    return arr, direction
+    return arr

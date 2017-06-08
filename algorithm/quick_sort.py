@@ -9,6 +9,8 @@ def quick_sort(arr, head, tail, direction=None):
         algorithm: partition an array into two parts such that all elements in one part
         is smaller than every element in another part. Then, use recursion to partition
         the following parts.
+        
+        complexity in O(n^2) in the worst case, in average case, it is O(nlogn)
     '''
 
     if (direction == 'descending'):

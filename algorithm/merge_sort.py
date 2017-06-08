@@ -9,6 +9,8 @@ def merge_sort(arr, direction=None):
         algorithm: divide the unsorted list into n sublists, each containing 1 element
         (a list of 1 element is considered sorted), then repeatedly merge sublists to
         produce new sorted sublists until there is only 1 sublist remaining
+
+        complexity in O(nlog(n))
     '''
     if direction == 'descending':
         if len(arr) <= 1:
